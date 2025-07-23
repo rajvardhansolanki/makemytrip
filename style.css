@@ -29,6 +29,10 @@
     align-items: center;
 }
 
+.nav-link-icon img {
+    margin-left: 4px;
+}
+
 .logo-container {
     width: 25%;
     height: 100%;
@@ -55,6 +59,11 @@
     display: flex;
     align-items: center;
     column-gap: 4px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 20%);
+    border: dotted rgb(255 255 255 / 15%);
+    border-width: 0 0 0 2px;
+    background-color: transparent;
+    padding: 6px;
 }
 
 .MyTrips-WidgetText {
@@ -196,4 +205,58 @@
 
 .booking-section {
     position: absolute;
+}
+
+.main {
+    min-height: 421px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 20%);
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.main-inner-container {
+    width: 90%;
+    height: 100px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    display: flex;
+    align-items: center;
+    padding: 8px 30px;
+    position: absolute;
+    top: -48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-inner-container p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-overflow: unset;
+    white-space: unset;
+    width: auto;
+}
+
+.inner-container-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.inner-container-child p {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 17px;
+    text-overflow: unset;
+    white-space: unset;
+    width: auto;
 }
