@@ -16,8 +16,7 @@
 
 .navbar {
     width: 100%;
-    height: 3rem;
-    padding-inline: 8rem;
+    padding: 1rem 4rem 1rem 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,47 +39,39 @@
 }
 
 .links-container {
-    width: 75%;
+    width: 100%;
     height: 100%;
     display: flex;
-    column-gap: 1rem;
+    column-gap: 12px;
 }
 
 .list-your-property {
-    height: 100%;
     padding: 4px;
     display: flex;
     align-items: center;
 }
 
 .introducing-myBiz {
-    height: 100%;
     display: flex;
     align-items: center;
     column-gap: 4px;
 }
 
 .MyTrips-WidgetText {
-    height: 100%;
     display: flex;
     align-items: center;
 }
 
 .login-dropdown-button {
-    height: 100%;
+    width: 213px;
     display: flex;
     align-items: center;
-}
-
-.language-dropdown {
-    height: 100%;
-    display: flex;
-    align-items: center;
+    background: linear-gradient(93deg, #53b2fe 0%, #065af3 100%);
+    border-radius: 6px;
 }
 
 .list-your-property-text {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,4 +109,91 @@
     line-height: 11px;
     color: #ffffff;
     margin-bottom: 3px;
+}
+
+.login-select {
+    width: 25%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.login-select::after {
+    content: '';
+    background: url('https://www.freeiconspng.com/uploads/white-down-arrow-png-2.png') no-repeat right center;
+    pointer-events: none;
+}
+
+.login-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-content p {
+    font-size: 11px;
+    line-height: 11px;
+    color: #ffffff;
+}
+
+.language-dropdown {
+    width: auto;
+}
+
+.dropdown-inner-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #797A75;
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.language-select {
+    width: 40%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 0.5rem;
+    border-left: 2px solid white;
+}
+
+.language-select::after {
+    content: '';
+    background: url('https://www.freeiconspng.com/uploads/white-down-arrow-png-2.png') no-repeat right center;
+    pointer-events: none;
+}
+
+.country-icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.country-icon-container img {
+    width: 1.5rem;
+}
+
+.dropdown-inner-container p {
+    font-size: 11px;
+    line-height: 11px;
+    color: #ffffff;
+}
+
+.booking-section {
+    position: absolute;
 }
