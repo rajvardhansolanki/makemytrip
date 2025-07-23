@@ -216,8 +216,6 @@
     border-radius: 6px;
     box-shadow: 0 1px 4px 0 rgb(0 0 0 / 20%);
     margin-top: 6rem;
-    display: flex;
-    justify-content: center;
 }
 
 .main-inner-container {
@@ -230,9 +228,11 @@
     align-items: center;
     padding: 8px 30px;
     position: absolute;
-    top: -48px;
+    top: 0px;
     display: flex;
     justify-content: space-between;
+    transform: translate(-50%, -50%);
+    left: 37.5rem;
 }
 
 .main-inner-container p {
@@ -253,10 +253,16 @@
 
 .inner-container-child p {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
+    color: #4a4a4a;
     text-align: center;
     line-height: 17px;
     text-overflow: unset;
     white-space: unset;
     width: auto;
+}
+
+.text-container {
+    position: absolute;
+    top: 70px;
 }
